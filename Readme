@@ -1,2 +1,6 @@
+npm init -y
+npm install --save react react-dom next
+mkdir pages
+
 docker build -t helloreact:1.0 -f Dockerfile .
 docker run -it -p 80:80 --rm --add-host="smsnet:172.19.245.78" helloreact:1.0
